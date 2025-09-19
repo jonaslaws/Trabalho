@@ -10,20 +10,13 @@
 |comandos|
 ------------------------------------------
 
-`systeminfo`:
+`systeminfo`: digite "systeminfo" sem aspas e aperte Enter para ver configuração de seu computador. **Uso:** Diagnóstico geral.
 
-digite "systeminfo" sem aspas e aperte Enter para ver configuração de seu computador. **Uso:** Diagnóstico geral.
+`SHUTDOWN`: O comando shutdown permite desligar ou reiniciar o computador de forma imediata ou agendada. **Uso:** Permite o técnico reiniciar/desligar o computador de forma forçada.
 
-`SHUTDOWN`:
-O comando shutdown permite desligar ou reiniciar o computador de forma imediata ou agendada. **Uso:** Permite o técnico 
+`wmic cpu get name`: Mostra o modelo do processador. **Uso:** Caso queira ver detalhes do processador.
 
-`wmic cpu get name`:
-
-Mostra o modelo do processador. **Uso:** Caso queira ver o processador 
-
-`perfmon`:
-
-Monitor de desempenho(CPU, memória, disco, rede) **Uso:** Caso queira ver o funcionamento de alguma peça
+`perfmon`: Monitor de desempenho(CPU, memória, disco, rede) **Uso:** Caso queira ver o funcionamento de alguma peça.
 
 
 ## 📌Gestão de discos:
@@ -31,21 +24,19 @@ Monitor de desempenho(CPU, memória, disco, rede) **Uso:** Caso queira ver o fun
 |comandos|
 ------------------------------------------
 
-`CHKDSK`: realiza uma análise da partição especificada nas configurações do comando (Para mais informações, digite CHKDSK /? no interpretador de comandos CMD) **Uso:** CAso queira uma analise mais especifica.
+`CHKDSK`: realiza uma análise da partição especificada nas configurações do comando (Para mais informações, digite CHKDSK /? no interpretador de comandos CMD) **Uso:** Caso queira uma analise mais especifica.
 
-`CLEANMGR`: abre a ferramenta de limpeza do disco **Uso:** 
+`CLEANMGR`: abre a ferramenta de limpeza do disco **Uso:** Permitir remover arquivos desnecessários do disco rígido para liberar espaço, como arquivos temporários da internet, arquivos temporários do sistema e arquivos da Lixeira.
 
-`DEFRAG`: Desfragmenta o disco rígido
+`DEFRAG`: Desfragmenta o disco rígido **Uso:** Permite localizar e consolidar arquivos fragmentados em volumes locais para melhorar o desempenho do sistema.
 
-`MSC`: abre a ferramenta de desfragmentação do disco
-
-`DISKPART`: abre a ferramenta de particionamento (manipulação pesada)
+`DISKPART`: abre a ferramenta de particionamento (manipulação pesada) **Uso:** É um utilitário de linha de comando do Windows para gerir discos, partições e volumes, permitindo realizar tarefas como criar, excluir, formatar e converter partições.
 
 ## 📌Gestão das Redes e Internet
 |comandos|
 ------------------------------------------
 
-`CONTROL NETCONNECTIONS ou NCPA.CPL`: abre as conexões da rede **Uso:** 
+`CONTROL NETCONNECTIONS ou NCPA.CPL`: abre as conexões da rede. **Uso:** Ver todas as conexões de rede disponíveis (Ethernet, Wi-Fi, etc.).Gerir as configurações dos adaptadores de rede, Desativar, ativar ou redefinir conexões de rede.
 
 `CPL`: abre o firewall do Windows **Uso:** Caso queira abrir e configurar alguma coisa no Firewall.
 
